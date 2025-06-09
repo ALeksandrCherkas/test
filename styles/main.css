@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Trebuchet MS'; /* любое имя */
-    src: url('/fonts/trebuchetms.ttf') format('ttf'); /* путь к файлу */
+    src: url('./fonts/trebuchetms.ttf') format('ttf'); /* путь к файлу */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Cera Pro';
-    src: url('/fonts/ceraPro/CeraPro-Regular.eot');
+    src: url('./fonts/ceraPro/CeraPro-Regular.eot');
     src: local('Cera Pro Regular'), local('CeraPro-Regular'),
-        url('/fonts/ceraPro/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/ceraPro/CeraPro-Regular.woff2') format('woff2'),
-        url('/fonts/ceraPro/CeraPro-Regular.woff') format('woff'),
-        url('/fonts/ceraPro/CeraPro-Regular.ttf') format('truetype');
+        url('./fonts/ceraPro/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ceraPro/CeraPro-Regular.woff2') format('woff2'),
+        url('./fonts/ceraPro/CeraPro-Regular.woff') format('woff'),
+        url('./fonts/ceraPro/CeraPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +29,7 @@ p, a, h1, h2, h3, h4 {
 
 body {
     width: 100%;
-    background-image: url('/images/elements.png');
+    background-image: url('./images/elements.png');
     background-position: center 450px;
     background-repeat: no-repeat;
     margin: 0;
