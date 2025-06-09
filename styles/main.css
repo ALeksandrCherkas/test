@@ -29,7 +29,7 @@ p, a, h1, h2, h3, h4 {
 
 body {
     width: 100%;
-    background-image: url('./images/elements.png');
+    background-image: url('../images/elements.png');
     background-position: center 450px;
     background-repeat: no-repeat;
     margin: 0;
