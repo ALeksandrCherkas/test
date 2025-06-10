@@ -799,7 +799,9 @@ footer{
         justify-content: center;
         position: relative;
     }
-
+    .loginForm__gender{
+        width: 80%;
+    }
     .mobileHero__wrapper h1{
         font-weight: 700;
         font-size: 24px;
@@ -862,7 +864,6 @@ footer{
         height: auto;
         padding: 0;
     }
-
     .loginForm__form input{
         width: 80%;
         font-weight: 400;
@@ -905,9 +906,8 @@ footer{
         text-align: center;
         color: #fff;
     }
-    .loginForm__wrapper button{
+    .loginForm__LogInBtn{
         display: none;
-
     }
     .loginForm__wrapper h2{
         font-weight: 700;
@@ -1118,6 +1118,3 @@ footer{
 }
 
 
-@media (max-width: 320px){
-    
-}
