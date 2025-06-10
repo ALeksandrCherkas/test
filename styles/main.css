@@ -787,7 +787,7 @@ footer{
     .mobileHero {
         margin-top: 93px;
         display: block;
-        height: 535px;
+        height: auto;
     }
 
 
@@ -804,21 +804,23 @@ footer{
     }
     .mobileHero__wrapper h1{
         font-weight: 700;
-        font-size: 24px;
+        width: 80%;
+        font-size: 32px;
         text-align: center;
         color: #303030;
     }
     .mobileHero__wrapper p{
+        width: 80%;
         margin-top: 20px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         text-align: center;
         color: #303030;
     }
     .mobileHero__wrapper button{
         margin-top: 355px;
         border-radius: 10px;
-        width: 280px;
+        width: 80%;
         border: none;
         font-weight: 700;
         font-size: 20px;
@@ -852,10 +854,16 @@ footer{
     }
 
     .loginForm__title__mobile{
+        width: 80%;
         display: block;
     }
 
+    .loginForm__title__mobile h2{
+        width: 100%;
+    }
+
     .loginForm__title__mobile p{
+        width: 100%;
         margin-top: 10px;
     }
     .loginForm__form{
@@ -911,7 +919,7 @@ footer{
     }
     .loginForm__wrapper h2{
         font-weight: 700;
-        max-width: 247px;
+        max-width: 100%;
         font-size: 26px;
         color: #303030;
     }
@@ -919,7 +927,7 @@ footer{
         font-weight: 400;
         font-size: 16px;
         color: #303030;
-        max-width: 247px;
+        max-width: 80%;
     }
 
     .gifsSlider{
