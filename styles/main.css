@@ -55,7 +55,7 @@ body {
     height: 52.69rem; 
 }
 
-.loginForm__wrapper button {
+.loginForm__LogInBtn{
     position: absolute;
     border: none;
     font-weight: 400;
@@ -221,6 +221,7 @@ body {
     border-radius: 0 6px 6px 0;
     width: 50%;
     height: 34px;
+    border: none;
     box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.02);
     background: #ffffff;
     font-weight: 400;
@@ -231,7 +232,7 @@ body {
 }
 
 .loginForm__gender button.active{
-    background-color: #1a73e8;
+    background: linear-gradient(90deg, #574dcc 0%, #579aff 100%);
     color: #fff;
     -webkit-text-fill-color: #fff;
 }
@@ -241,6 +242,23 @@ body {
     height: auto;
     box-shadow: inset 0 0 6px 0 rgba(38, 31, 123, 0.05);
     background: #f5f7f9;
+}
+
+.loginForm__signUpBtn{
+    margin-top: 16px;
+    border: none;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    background-color: #1a73e8;
+    border-radius: 6px;
+    height: 38px;
+    box-shadow: 0 12px 17px 0 rgba(88, 81, 207, 0.2);
+    background: linear-gradient(90deg, #574dcc 0%, #579aff 100%);
 }
 
 .loginForm__termsCheck p{
@@ -860,6 +878,10 @@ footer{
 
     .loginForm__title__mobile h2{
         width: 100%;
+    }
+
+    .loginForm__signUpBtn{
+        width: 80%;
     }
 
     .loginForm__title__mobile p{
