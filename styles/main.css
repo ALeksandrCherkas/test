@@ -896,9 +896,7 @@ footer{
     }
     .loginForm__form input{
         width: 80%;
-        font-weight: 400;
         font-size: 12px;
-        color: #8789a1;
     }
     .loginForm__emailSign p:last-of-type{
         font-size: 12px;
@@ -948,8 +946,7 @@ footer{
     .loginForm__wrapper p{
         font-weight: 400;
         font-size: 16px;
-        color: #303030;
-        max-width: 80%;
+        width: 80%;
     }
 
     .loginForm__termsCheck p{
