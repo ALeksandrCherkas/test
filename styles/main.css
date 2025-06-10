@@ -868,7 +868,7 @@ footer{
     }
     .loginForm__form{
         margin-top: 40px;
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 0;
     }
@@ -931,6 +931,7 @@ footer{
     }
 
     .gifsSlider{
+        width: 90%;
         margin-top: 60px;
     }
 
@@ -946,7 +947,7 @@ footer{
     }
     .about__wrapper {
         border-radius: 20px;
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 40px 0;
     }
@@ -960,6 +961,7 @@ footer{
     }
     .about__wrapper p{
         font-weight: 400;
+        max-width: 80%;
         font-size: 16px;
         text-align: center;
         color: #303030;
@@ -977,7 +979,7 @@ footer{
     }
     /* Why us section */
     .whyUs__wrapper{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     
