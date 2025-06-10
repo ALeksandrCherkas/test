@@ -952,6 +952,12 @@ footer{
         max-width: 80%;
     }
 
+    .loginForm__termsCheck p{
+        margin: 0;
+        font-weight: 400;
+        color: #8789a1;
+    }
+
     .gifsSlider{
         width: 90%;
         margin-top: 60px;
@@ -1149,4 +1155,16 @@ footer{
     
 }
 
+@media (max-width: 450px){
+    .loginForm__termsCheck p{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .loginForm__termsCheck p{
+        font-size: 10px;
+    }
+}
 
