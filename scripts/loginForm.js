@@ -10,7 +10,6 @@ formSwitch.addEventListener("click", (e) => {
         e.target.classList.add("active");
 
         const index = Array.from(formSwitch.children).indexOf(e.target);
-        console.log(index)
 
         if (index === 1) {
             emailForm.classList.toggle("disabled");
